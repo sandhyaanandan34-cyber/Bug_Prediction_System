@@ -1,14 +1,14 @@
 # Bug_Prediction_System
 AI Powered Bug Prediction and Fix System
 
-#Overview
+# Overview
 
 This project demonstrates an end-to-end bug detection and automated code-fixing system using transformer-based models. The workflow involves:
 - Bug detection – Identifying whether a given code snippet contains a bug.
 - Confidence scoring – Quantifying how certain the model is about its prediction.
 - Bug fixing – Generating a corrected version of the buggy code using a sequence-to-sequence model.
 
-#Methods Used
+# Methods Used
 1. Bug Detection
 - Tokenizer: The buggy code is tokenized using bug_tokenizer to convert text into model-readable tensors.
 - Model: bug_model processes the inputs and outputs logits representing bug/no-bug classification.
